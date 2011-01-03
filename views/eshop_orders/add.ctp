@@ -18,7 +18,7 @@
 
         // you can add delivery details such as delivery_name, delivery_adress_stree etc.
 
-        echo $form->input('payement', array('label' => __('Payement', true)));
+        echo $form->input('payement', array('label' => __('Payment', true)));
         echo $form->input('shipping', array('label' => __('Shipping', true)));
 
         echo $form->input('order_note', array('label' => __('Note', true)));
